@@ -4,13 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start":"next"
+    "start": "next"
   },
   "dependencies": {
     "next": "^8.0.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
-    "react-truth": "^0.0.9",
+    "react-truth": "^0.1.6",
     "store": "^2.0.12"
   }
 }

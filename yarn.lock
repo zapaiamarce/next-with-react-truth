@@ -2629,7 +2629,7 @@ locate-path@^3.0.0:
     p-locate "^3.0.0"
     path-exists "^3.0.0"
 
-lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5:
+lodash@>=4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5:
   version "4.17.11"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
   integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
@@ -3529,11 +3529,12 @@ react-is@^16.3.2, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.4.tgz#90f336a68c3a29a096a3d648ab80e87ec61482a2"
   integrity sha512-PVadd+WaUDOAciICm/J1waJaSvgq+4rHE/K70j0PFqKhkTBsPv/82UGQJNXAngz1fOQLLxI6z1sEDmJDQhCTAA==
 
-react-truth@^0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/react-truth/-/react-truth-0.0.9.tgz#2a5d23b6adaeb72da6cfed99f1f4171425989df9"
-  integrity sha512-UkSTwNis6aMnZ7sCSSmy2e3LJqVtKowpjvMMgRz/MOFh9kQnojIN7/ZHTN+9g74oBtEoDtotxB+DJuUL6wd2Ig==
+react-truth@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/react-truth/-/react-truth-0.1.6.tgz#372cb46713a818296211075c681964ffe8b0b89b"
+  integrity sha512-emCOsfFKUq8Yr7PaM7Aw84nbullsPv3+jds55Tki+86SSa9ThCcMmVjlUKJt35gbT2HRXWN7Hg8i5hwMANEmDQ==
   dependencies:
+    lodash ">=4.0.0"
     store ">=2.0.0"
 
 react@^16.8.4:

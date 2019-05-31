@@ -1,13 +1,6 @@
-import React from "react";
-import ReactTruth, { withAppState } from "react-truth";
+import ReactTruth from "react-truth";
 
-
-const AppContext = React.createContext({});
-
-export default class Actions extends ReactTruth {
-  constructor(props) {
-    super(props, AppContext);
-  }
+export default class AppState extends ReactTruth {
   async componentDidMount() {
     this.setState({
       ...this.state,
@@ -23,4 +16,6 @@ export default class Actions extends ReactTruth {
   }
 }
 
-export const useAppState = withAppState(AppContext);
+export const appState = new AppState({}, {
+  persist: true
+});
